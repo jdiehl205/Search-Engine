@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("animebackground3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+  font-family: 'Permanent Marker', cursive;
+  overflow: hidden;
+}
+
+#container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+#container h1 {
+  font-size: 1.3em;
+}
+
+#container input {
+  border-radius: 50px;
+  width: 200px;
+}
+
+.again {
+  display: none;
+}
+
+h4 {
+  border-bottom: solid black 5px;
+  width: 93px;
+}
+
+ul, h4 {
+  position: relative;
+  top: 430px;
+  left: 650px;
+  list-style-type: none;
+}
+
+ul li, h4 li {
+  position: relative;
+  left: -40px;
+}
+
+@media (min-width: 360px) {
+  #bar input {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
