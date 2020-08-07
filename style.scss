@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("animebackground3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    font-family: 'Permanent Marker', cursive;
+    overflow: hidden;
+}
+
+#container{
+    display: grid;
+    grid-auto-rows: 100vh;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    h1{
+        font-size: 1.3em;
+    }
+    input{
+        border-radius: 50px;
+        width: 200px;
+    }
+}
+
+.again{
+    display: none;
+}
+
+h4{
+    border-bottom: solid black 5px;
+    width: 93px;
+}
+
+ul, h4{
+    position: relative;
+    top: 430px;
+    left: 650px;
+    list-style-type: none;
+    li{
+        position: relative;
+        left: -40px;
+    }
+}
+
+// Responsive
+@media(min-width: 360px){
+    #bar{
+        input{
+            width: 250px;
+        }
+    }
+}
+
+// @media(min-width: 375px){
+//     #bar{
+//         padding-left: 30px;
+//         h1{
+//             padding-right: 25px;
+//         }
+//     }
+// }
+
+// @media (min-width: 411px) and (max-width: 412px){
+//     #bar{
+//         position: relative;
+//         left: 5%;
+//         padding-top: 0;
+//         top: 35%;
+//         h1{
+//             padding-right: 60px;
+//         }
+//     }
+// }
+
+// @media(min-width: 414px){
+//     #bar{
+//         padding-left: 50px;
+//         h1{
+//             padding-right: 50px;
+//         }
+//     }
+// }
+
+// @media(max-width: 487px){
+//     #bar{
+//         padding-left: 80px;
+//         h1{
+//             padding-right: 80px;
+//         }
+//     }
+// }
+
+// @media(min-width: 600px) and (max-width: 601px){
+//     #bar{
+//         position: relative;
+//         top: -20%;
+//         left: 15%;
+//         h1{
+//             padding-right: 220px;
+//         }
+//     }
+// }
+
+// @media(min-width: 720px){
+//     #bar{
+//         padding-left: 100px;
+//         position: relative;
+//         top: -35%;
+//         input{
+//             font-size: 30px;
+//             width: 500px;
+//         }
+//         h1{
+//             font-size: 40px;
+//             padding-right: 100px;
+//         }
+//     }
+// }
+
+// @media(min-width: 768px){
+//     #bar{
+//         padding-left: 130px;
+//         position: relative;
+//         top: -40%;
+//         h1{
+//             padding-right: 140px;
+//         }
+//     }
+// }
+
+// @media(min-width: 800px) and (max-width: 801px){
+//     #bar{
+//         position: relative;
+//         left: 2%;
+//     }
+// }
+
+// @media(min-width: 834px) and (max-width: 835px){
+//     #bar{
+//         position: relative;
+//         left: 3%;
+//         top: -50%;
+//         h1{
+//             padding-right: 180px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1020px){
+//     #bar{
+//         position: relative;
+//         top: -60%;
+//         left: 12%;
+//         h1{
+//             padding-right: 350px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1280px){
+//     #bar{
+//         position: relative;
+//         left: 20%;
+//         top: -90%;
+//         h1{
+//             padding-right: 600px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1300px){
+//     #bar{
+//         position: relative;
+//         top: -90%;
+//         h1{
+//             padding-right: 720px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1400px){
+//     #bar{
+//         position: relative;
+//         top: -100%;
+//         h1{
+//             padding-right: 770px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1440px){
+//     #bar{
+//         position: relative;
+//         top: -100%;
+//         left: 23%;
+//         input{
+//             border-radius: 30px;
+//         }
+//         h1{
+//             padding-right: 800px;
+//         }
+//     }
+// }
+
+// @media(min-width: 1536px){
+//     #bar{
+//         position: relative;
+//         left: 24%;
+//         top: 30%;
+//         padding-top: 0;
+//         h1{
+//             padding-right: 890px;
+//         }
+//     }
+// }
