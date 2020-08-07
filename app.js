@@ -1,5 +1,5 @@
 let search = document.querySelector("input"),
-    div = document.querySelectorAll("div")[2],
+    div = document.querySelectorAll("div")[3],
     a = document.querySelector(".again"),
     title = document.querySelector("h1"),
     link = document.querySelector("link");
