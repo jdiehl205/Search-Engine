@@ -27,7 +27,7 @@ body {
 
 #container input {
   border-radius: 50px;
-  width: 200px;
+  width: 30vw;
 }
 
 .again {
@@ -53,7 +53,7 @@ ul li, h4 li {
 
 @media (min-width: 360px) {
   #bar input {
-    width: 250px;
+    width: 30vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
