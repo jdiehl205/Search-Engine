@@ -3,7 +3,8 @@ let search = document.querySelector("input"),
     a = document.querySelector(".again"),
     title = document.querySelector("h1"),
     link = document.querySelector("link");
-    message = document.querySelector(".message");
+    message = document.querySelector(".message"),
+    container = document.querySelector("#container");
 
     let style = document.createElement("link");
 
@@ -63,11 +64,8 @@ function getHtml(matched){
 }
 
 function styles(){
-    search.style.display = "none";
-    div.style.display = "block";
-    title.style.display = "none";
-    message.style.display = "none";
     message.textContent = null;
+    container.style.display = "none"
     if(document.head.contains(link)){
         document.head.replaceChild(style, link);
     }
@@ -77,10 +75,7 @@ function styles(){
 
 a.addEventListener("click", () => {
     let animeDiv = document.querySelectorAll(".anime");
-    div.style.display = "none";
-    search.style.display = "block";
-    title.style.display = "block";
-    message.style.display = "block";
+    container.style.display = "grid"
     if(document.head.contains(style)){
         document.head.replaceChild(link, style);
     }
