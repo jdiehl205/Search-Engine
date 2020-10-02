@@ -55,6 +55,7 @@ body {
 @media (min-width: 320px) {
   #container input {
     width: 50vw;
+    font-size: small;
   }
   #container h2 {
     width: 40vw;
@@ -67,9 +68,6 @@ body {
 }
 
 @media (min-width: 360px) {
-  #bar input {
-    width: 30vw;
-  }
   #container h2 {
     left: 17%;
     width: 33vw;
