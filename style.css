@@ -22,38 +22,99 @@ body {
 }
 
 #container h1 {
-  font-size: 1.3em;
+  font-size: 1.5em;
+}
+
+#container h2 {
+  border-bottom: solid black 4px;
+  font-size: 1.2rem;
+  width: 15vw;
+  position: relative;
+  left: 24%;
 }
 
 #container input {
   border-radius: 50px;
   width: 30vw;
+  font-size: large;
+}
+
+#container li {
+  list-style-type: none;
+}
+
+#container .message {
+  font-size: .8em;
+  width: 50vw;
 }
 
 .again {
   display: none;
 }
 
-h4 {
-  border-bottom: solid black 5px;
-  width: 93px;
-}
-
-ul, h4 {
-  position: relative;
-  top: 430px;
-  left: 650px;
-  list-style-type: none;
-}
-
-ul li, h4 li {
-  position: relative;
-  left: -40px;
+@media (min-width: 320px) {
+  #container input {
+    width: 50vw;
+  }
+  #container h2 {
+    width: 40vw;
+    left: 13%;
+  }
+  #container ul {
+    position: relative;
+    left: -10%;
+  }
 }
 
 @media (min-width: 360px) {
   #bar input {
     width: 30vw;
+  }
+  #container h2 {
+    left: 17%;
+    width: 33vw;
+  }
+}
+
+@media (min-width: 425px) {
+  #container h2 {
+    left: 19%;
+    width: 30vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #container h2 {
+    left: 29%;
+    width: 20vw;
+  }
+  #container ul {
+    left: -7%;
+  }
+  #container .message {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  #container h2 {
+    left: 34.5%;
+    width: 15vw;
+  }
+  #container ul {
+    position: relative;
+    left: -5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #container h2 {
+    left: 39%;
+    width: 10vw;
+  }
+  #container ul {
+    position: relative;
+    left: -4%;
   }
 }
 /*# sourceMappingURL=style.css.map */
