@@ -107,13 +107,6 @@ a {
   }
 }
 
-@media (max-width: 600px) {
-  .anime-list img {
-    width: 450px;
-    height: 450px;
-  }
-}
-
 @media (min-width: 768px) {
   .anime-list {
     margin-left: 10%;
