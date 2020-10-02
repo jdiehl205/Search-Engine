@@ -84,6 +84,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  #container {
+    grid-auto-rows: 80vh;
+  }
   #container h2 {
     left: 29%;
     width: 20vw;
@@ -97,6 +100,9 @@ body {
 }
 
 @media (min-width: 1024px) {
+  #container {
+    grid-auto-rows: 100vh;
+  }
   #container h2 {
     left: 34.5%;
     width: 15vw;
@@ -104,6 +110,24 @@ body {
   #container ul {
     position: relative;
     left: -5%;
+  }
+}
+
+@media (min-height: 960px) {
+  #container {
+    grid-auto-rows: 80vh;
+  }
+}
+
+@media (min-height: 1280px) {
+  #container {
+    grid-auto-rows: 60vh;
+  }
+}
+
+@media (min-height: 1336px) {
+  #container {
+    grid-auto-rows: 60vh;
   }
 }
 
